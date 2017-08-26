@@ -1,0 +1,7 @@
+bzip2-devel
+glibc-devel
+libtermcap-devel
+ncurses-devel
+pam-devel
+readline-devel
+zlib-devel

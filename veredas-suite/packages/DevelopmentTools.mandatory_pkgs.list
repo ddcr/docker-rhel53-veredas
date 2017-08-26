@@ -1,0 +1,15 @@
+autoconf
+automake
+binutils
+bison
+flex
+gcc
+gcc-c++
+gdb
+gettext
+libtool
+make
+pkgconfig
+redhat-rpm-config
+rpm-build
+strace

@@ -1,0 +1,31 @@
+# from @Core (mandatory packages)
+#
+# [main]
+# ...
+# group_package_types=mandatory
+#
+
+@Core
+grep
+gawk
+yum
+
+@development-libs
+
+@development-tools
+automake14
+automake15
+automake16
+automake17
+byacc
+elfutils
+gcc-gfortran
+ltrace
+oprofile
+patchutils
+pstack
+swig
+valgrind
+
+# required to fix RPM DB
+/usr/bin/db_load

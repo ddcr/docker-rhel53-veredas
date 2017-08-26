@@ -1,0 +1,1736 @@
+
+Group: Office/Productivity
+ Group-Id: office
+ Description: The applications include office suites, PDF viewers, and more.
+ Default Packages:
+   +evince
+ Optional Packages:
+   tetex-xdvi
+
+Group: Engineering and Scientific
+ Group-Id: engineering-and-scientific
+ Description: This group includes packages for performing mathematical and scientific computations and plotting, as well as unit conversion.
+ Default Packages:
+   +gnuplot
+   +units
+ Optional Packages:
+   lam
+   lapack
+   pvm
+
+Group: MySQL Database
+ Group-Id: mysql
+ Description: This package group contains packages useful for use with MySQL.
+ Mandatory Packages:
+   +mysql
+ Default Packages:
+   +MySQL-python
+   +libdbi-dbd-mysql
+   +mysql-connector-odbc
+   +mysql-server
+   +perl-DBD-MySQL
+   +unixODBC
+ Optional Packages:
+   mod_auth_mysql
+   mysql-bench
+   mysql-devel
+   php-mysql
+   qt-MySQL
+
+Group: Administration Tools
+ Group-Id: admin-tools
+ Description: This group is a collection of graphical administration tools for the system, such as for managing user accounts and configuring system hardware.
+ Default Packages:
+   +authconfig-gtk
+   +pirut
+   +sabayon
+   +setroubleshoot
+   +system-config-date
+   +system-config-kdump
+   +system-config-keyboard
+   +system-config-language
+   +system-config-lvm
+   +system-config-netboot
+   +system-config-network
+   +system-config-rootpassword
+   +system-config-soundcard
+   +system-config-users
+ Optional Packages:
+   system-config-kickstart
+
+Group: Portuguese Support
+ Group-Id: portuguese-support
+ Language: pt
+ Conditional Packages:
+   +aspell-pt
+   +kde-i18n-Portuguese
+
+Group: Editors
+ Group-Id: editors
+ Description: Sometimes called text editors, these are programs that allow you to create and edit files. These include Emacs and Vi.
+ Default Packages:
+   +emacs-leim
+   +emacspeak
+   +psgml
+   +vim-enhanced
+ Optional Packages:
+   emacs
+   emacs-nox
+   gnuplot-emacs
+   nedit
+   vim-X11
+
+Group: System Tools
+ Group-Id: system-tools
+ Description: This group is a collection of various tools for the system, such as the client for connecting to SMB shares and tools to monitor network traffic.
+ Default Packages:
+   +OpenIPMI-tools
+   +bluez-gnome
+   +bluez-hcidump
+   +dmidecode
+   +net-snmp-libs
+   +nmap
+   +ntp
+   +openldap-clients
+   +samba-client
+   +screen
+   +vnc
+   +xdelta
+   +zisofs-tools
+   +zsh
+ Optional Packages:
+   adjtimex
+   am-utils
+   amanda-client
+   arptables_jf
+   arpwatch
+   audit
+   avahi-tools
+   createrepo
+   dstat
+   dtach
+   e4fsprogs
+   elfspe2
+   festival
+   gnome-nettool
+   gnutls-utils
+   hwbrowser
+   iptraf
+   ktune
+   lslk
+   lsscsi
+   mc
+   mrtg
+   mt-st
+   mtx
+   net-snmp-utils
+   nmap-frontend
+   rdesktop
+   sblim-gather
+   sblim-wbemcli
+   sysstat
+   tn5250
+   tog-pegasus
+   tsclient
+   uucp
+   uuidd
+   vlock
+   watchdog
+   wireshark-gnome
+   x3270
+
+Group: Japanese Support
+ Group-Id: japanese-support
+ Language: ja
+ Mandatory Packages:
+   +fonts-japanese
+ Default Packages:
+   +Deployment_Guide-ja-JP
+   +anthy
+   +kcc
+   +lv
+   +nkf
+   +perl-NKF
+ Optional Packages:
+   bogl
+   bogl-bterm
+ Conditional Packages:
+   +kde-i18n-Japanese
+   +man-pages-ja
+   +scim-anthy
+   +scim-bridge-gtk
+   +scim-qtimm
+
+Group: Hungarian Support
+ Group-Id: hungarian-support
+ Language: hu
+ Mandatory Packages:
+   +fonts-ISO8859-2
+ Conditional Packages:
+   +fonts-ISO8859-2-100dpi
+   +fonts-ISO8859-2-75dpi
+   +kde-i18n-Hungarian
+
+Group: Punjabi Support
+ Group-Id: punjabi-support
+ Language: pa
+ Mandatory Packages:
+   +fonts-punjabi
+   +m17n-db-punjabi
+ Default Packages:
+   +Deployment_Guide-pa-IN
+ Conditional Packages:
+   +kde-i18n-Punjabi
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: British Support
+ Group-Id: british-support
+ Language: en_GB
+ Conditional Packages:
+   +kde-i18n-British
+
+Group: Korean Support
+ Group-Id: korean-support
+ Language: ko
+ Mandatory Packages:
+   +fonts-korean
+ Default Packages:
+   +Deployment_Guide-ko-KR
+   +lv
+ Optional Packages:
+   bogl
+   bogl-bterm
+ Conditional Packages:
+   +kde-i18n-Korean
+   +man-pages-ko
+   +scim-bridge-gtk
+   +scim-hangul
+   +scim-qtimm
+
+Group: GNOME Software Development
+ Group-Id: gnome-software-development
+ Description: Install these packages in order to develop GTK+ and GNOME graphical applications.
+ Mandatory Packages:
+   +GConf2-devel
+   +ORBit2-devel
+   +atk-devel
+   +glib2-devel
+   +gnome-vfs2-devel
+   +gtk2-devel
+   +libbonobo-devel
+   +libbonoboui-devel
+   +libglade2-devel
+   +libgnome-devel
+   +libgnomecanvas-devel
+   +libgnomeui-devel
+   +pango-devel
+ Default Packages:
+   +at-spi-devel
+   +bug-buddy
+   +devhelp
+   +eel2-devel
+   +evolution-data-server-devel
+   +gail-devel
+   +glade2
+   +gnome-desktop-devel
+   +gnome-panel-devel
+   +gtk-doc
+   +hal-devel
+   +libart_lgpl-devel
+   +libgnomeprintui22-devel
+   +libgtop2-devel
+   +pygtk2-devel
+ Optional Packages:
+   gob2
+   libgconf-java
+   libglade-java
+   libgnome-java
+   libgtk-java
+
+Group: German Support
+ Group-Id: german-support
+ Language: de
+ Default Packages:
+   +Deployment_Guide-de-DE
+ Conditional Packages:
+   +aspell-de
+   +kde-i18n-German
+   +man-pages-de
+
+Group: Hindi Support
+ Group-Id: hindi-support
+ Language: hi
+ Mandatory Packages:
+   +fonts-hindi
+   +m17n-db-hindi
+ Default Packages:
+   +Deployment_Guide-hi-IN
+ Conditional Packages:
+   +kde-i18n-Hindi
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: Faeroese Support
+ Group-Id: faeroese-support
+ Language: fo
+ Conditional Packages:
+   +aspell-fo
+
+Group: Swedish Support
+ Group-Id: swedish-support
+ Language: sv
+ Conditional Packages:
+   +aspell-sv
+   +kde-i18n-Swedish
+
+Group: Russian Support
+ Group-Id: russian-support
+ Language: ru
+ Mandatory Packages:
+   +fonts-KOI8-R
+   +fonts-KOI8-R-100dpi
+ Default Packages:
+   +Deployment_Guide-ru-RU
+   +fonts-KOI8-R-75dpi
+ Conditional Packages:
+   +aspell-ru
+   +kde-i18n-Russian
+   +m17n-db-russian
+   +man-pages-ru
+   +xorg-x11-fonts-cyrillic
+
+Group: Text-based Internet
+ Group-Id: text-internet
+ Description: This group includes text-based email, Web, and chat clients. These applications do not require the X Window System.
+ Default Packages:
+   +cadaver
+   +elinks
+   +fetchmail
+   +mutt
+   +slrn
+ Optional Packages:
+   epic
+   lynx
+   tftp
+
+Group: Serbian Support
+ Group-Id: serbian-support
+ Language: sr
+ Mandatory Packages:
+   +fonts-ISO8859-2
+ Conditional Packages:
+   +aspell-sr
+   +fonts-ISO8859-2-100dpi
+   +fonts-ISO8859-2-75dpi
+   +kde-i18n-Serbian
+
+Group: Sinhala Support
+ Group-Id: sinhala-support
+ Language: si
+ Mandatory Packages:
+   +fonts-sinhala
+   +m17n-db-sinhala
+ Default Packages:
+   +Deployment_Guide-si-LK
+ Conditional Packages:
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+   +scim-sinhala
+
+Group: Catalan Support
+ Group-Id: catalan-support
+ Language: ca
+ Conditional Packages:
+   +aspell-ca
+   +kde-i18n-Catalan
+
+Group: X Software Development
+ Group-Id: x-software-development
+ Description: These packages allow you to develop applications for the X Window System.
+ Mandatory Packages:
+   +libICE-devel
+   +libX11-devel
+   +libXaw-devel
+   +libXfixes-devel
+   +libXt-devel
+ Default Packages:
+   +SDL-devel
+   +Xaw3d-devel
+   +freetype-devel
+   +gd-devel
+   +giflib-devel
+   +libSM-devel
+   +libXScrnSaver-devel
+   +libXTrap-devel
+   +libXau-devel
+   +libXcomposite-devel
+   +libXcursor-devel
+   +libXdamage-devel
+   +libXdmcp-devel
+   +libXevie-devel
+   +libXext-devel
+   +libXfont-devel
+   +libXfontcache-devel
+   +libXft-devel
+   +libXmu-devel
+   +libXrandr-devel
+   +libXrender-devel
+   +libXres-devel
+   +libXtst-devel
+   +libXvMC-devel
+   +libXxf86dga-devel
+   +libXxf86misc-devel
+   +libXxf86vm-devel
+   +libdrm-devel
+   +libjpeg-devel
+   +libmng-devel
+   +libpng-devel
+   +libtiff-devel
+   +mesa-libGL-devel
+   +netpbm-devel
+   +xorg-x11-xtrans-devel
+   +xrestop
+ Optional Packages:
+   icon-naming-utils
+   icon-slicer
+   libXp-devel
+   mesa-libGLU-devel
+   mesa-libGLw-devel
+   openmotif-devel
+   xorg-x11-server-sdk
+   xorg-x11-xbitmaps
+
+Group: Legacy Network Server
+ Group-Id: legacy-network-server
+ Description: These packages include servers for old network protocols such as rsh and telnet.
+ Default Packages:
+   +rusers
+   +rwho
+   +xinetd
+ Optional Packages:
+   bootparamd
+   rarpd
+   rsh-server
+   rusers-server
+   talk-server
+   telnet-server
+   tftp-server
+
+Group: Single Node GFS Support
+ Group-Id: single-node-gfs
+ Description: Packages which provide support for single-node GFS.
+ Default Packages:
+   +cman
+   +gfs2-utils
+
+Group: DNS Name Server
+ Group-Id: dns-server
+ Description: This package group allows you to run a DNS name server (BIND) on the system.
+ Mandatory Packages:
+   +bind
+ Default Packages:
+   +bind-chroot
+
+Group: GNOME Desktop Environment
+ Group-Id: gnome-desktop
+ Description: GNOME is a powerful, graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.
+ Mandatory Packages:
+   +control-center
+   +gnome-applets
+   +gnome-panel
+   +gnome-session
+   +gnome-terminal
+   +metacity
+   +nautilus
+   +yelp
+ Default Packages:
+   +NetworkManager-gnome
+   +alacarte
+   +at-spi
+   +desktop-printing
+   +dvd+rw-tools
+   +eog
+   +esc
+   +evince
+   +file-roller
+   +gedit
+   +gnome-audio
+   +gnome-backgrounds
+   +gnome-mag
+   +gnome-netstatus
+   +gnome-power-manager
+   +gnome-screensaver
+   +gnome-system-monitor
+   +gnome-themes
+   +gnome-user-docs
+   +gnome-utils
+   +gnome-vfs2-smb
+   +gnome-volume-manager
+   +gok
+   +gtk2-engines
+   +gtkhtml3
+   +im-chooser
+   +nautilus-cd-burner
+   +nautilus-open-terminal
+   +notification-daemon
+   +orca
+   +sabayon-apply
+   +vino
+ Optional Packages:
+   dasher
+   gconf-editor
+   gnome-bluetooth
+   gnome-keyring-manager
+   hal-gnome
+
+Group: Dialup Networking Support
+ Group-Id: dialup
+ Mandatory Packages:
+   +ppp
+ Default Packages:
+   +isdn4k-utils
+   +lrzsz
+   +minicom
+   +wvdial
+ Optional Packages:
+   efax
+   statserial
+
+Group: Turkish Support
+ Group-Id: turkish-support
+ Language: tr
+ Conditional Packages:
+   +kde-i18n-Turkish
+   +xorg-x11-fonts-ISO8859-9-100dpi
+   +xorg-x11-fonts-ISO8859-9-75dpi
+
+Group: Arabic Support
+ Group-Id: arabic-support
+ Language: ar
+ Mandatory Packages:
+   +fonts-arabic
+ Conditional Packages:
+   +kde-i18n-Arabic
+
+Group: Core
+ Group-Id: core
+ Description: Smallest possible installation
+ Mandatory Packages:
+   +SysVinit
+   +authconfig
+   +basesystem
+   +bash
+   +coreutils
+   +cpio
+   +e2fsprogs
+   +ed
+   +file
+   +filesystem
+   +glibc
+   +hdparm
+   +initscripts
+   +iproute
+   +iprutils
+   +iputils
+   +kbd
+   +kudzu
+   +libgcc
+   +libhugetlbfs
+   +libtermcap
+   +mkinitrd
+   +passwd
+   +policycoreutils
+   +prelink
+   +procps
+   +readline
+   +redhat-logos
+   +redhat-release
+   +redhat-release-notes
+   +rootfiles
+   +rpm
+   +selinux-policy-targeted
+   +setools
+   +setserial
+   +setup
+   +shadow-utils
+   +sysklogd
+   +termcap
+   +util-linux
+   +vim-minimal
+ Default Packages:
+   +Deployment_Guide-en-US
+   +elilo
+   +gnu-efi
+   +grub
+   +ppc64-utils
+   +s390utils
+   +salinfo
+   +sysfsutils
+   +udftools
+   +yaboot
+ Optional Packages:
+   ecryptfs-utils
+   rsyslog
+   sgpio
+
+Group: Authoring and Publishing
+ Group-Id: authoring-and-publishing
+ Description: These tools allow you to create documentation in the DocBook format and convert them to HTML, PDF, Postscript, and text.
+ Default Packages:
+   +docbook-slides
+   +docbook-style-dsssl
+   +docbook-style-xsl
+   +docbook-utils
+   +docbook-utils-pdf
+   +linuxdoc-tools
+   +tetex
+   +xhtml1-dtds
+   +xmlto
+ Optional Packages:
+   tetex-xdvi
+
+Group: Irish Support
+ Group-Id: irish-support
+ Language: ga
+ Conditional Packages:
+   +aspell-ga
+
+Group: Italian Support
+ Group-Id: italian-support
+ Language: it
+ Default Packages:
+   +Deployment_Guide-it-IT
+ Conditional Packages:
+   +aspell-it
+   +kde-i18n-Italian
+   +man-pages-it
+
+Group: Slovak Support
+ Group-Id: slovak-support
+ Language: sk
+ Mandatory Packages:
+   +fonts-ISO8859-2
+ Conditional Packages:
+   +fonts-ISO8859-2-100dpi
+   +fonts-ISO8859-2-75dpi
+   +kde-i18n-Slovak
+
+Group: Base
+ Group-Id: base
+ Description: This group includes a minimal set of packages. Useful for creating small router/firewall boxes, for example.
+ Mandatory Packages:
+   +acl
+   +at
+   +attr
+   +authconfig
+   +bc
+   +bind-utils
+   +bzip2
+   +crontabs
+   +cyrus-sasl-plain
+   +libutempter
+   +logrotate
+   +lsof
+   +mailcap
+   +man
+   +ntsysv
+   +parted
+   +pciutils
+   +psacct
+   +quota
+   +rhel-instnum
+   +system-config-securitylevel-tui
+   +tmpwatch
+   +traceroute
+   +vixie-cron
+ Default Packages:
+   +NetworkManager
+   +OpenIPMI
+   +acpid
+   +amtu
+   +anacron
+   +apmd
+   +aspell
+   +aspell-en
+   +autofs
+   +bluez-utils
+   +ccid
+   +conman
+   +coolkey
+   +cpuspeed
+   +crash
+   +cryptsetup-luks
+   +dhclient
+   +dhcpv6-client
+   +dmraid
+   +dos2unix
+   +dosfstools
+   +dump
+   +eject
+   +fbset
+   +finger
+   +firstboot-tui
+   +ftp
+   +gnupg
+   +gpm
+   +ipsec-tools
+   +iptstate
+   +irda-utils
+   +irqbalance
+   +jwhois
+   +krb5-workstation
+   +ksh
+   +lftp
+   +libaio
+   +logwatch
+   +m2crypto
+   +man-pages
+   +mcelog
+   +mdadm
+   +mgetty
+   +microcode_ctl
+   +mkbootdisk
+   +mlocate
+   +mozldap
+   +mtools
+   +mtr
+   +nano
+   +nc
+   +nfs-utils
+   +nss-tools
+   +nss_db
+   +nss_ldap
+   +numactl
+   +openssh-clients
+   +openssh-server
+   +pam_ccreds
+   +pam_krb5
+   +pam_passwdqc
+   +pam_pkcs11
+   +pam_smb
+   +pax
+   +pcmciautils
+   +pinfo
+   +pkinit-nss
+   +pm-utils
+   +prctl
+   +rdate
+   +rdist
+   +readahead
+   +redhat-lsb
+   +rhn-check
+   +rhn-setup
+   +rng-utils
+   +rp-pppoe
+   +rsh
+   +rsync
+   +sendmail
+   +setarch
+   +setuptool
+   +smartmontools
+   +sos
+   +specspo
+   +stunnel
+   +sudo
+   +svrcore
+   +symlinks
+   +system-config-network-tui
+   +talk
+   +tcp_wrappers
+   +tcpdump
+   +tcsh
+   +telnet
+   +time
+   +tree
+   +unix2dos
+   +unzip
+   +usbutils
+   +vconfig
+   +wget
+   +which
+   +wireless-tools
+   +words
+   +ypbind
+   +yum
+   +yum-rhn-plugin
+   +yum-security
+   +yum-updatesd
+   +zip
+ Optional Packages:
+   aide
+   authd
+   bridge-utils
+   brltty
+   convmv
+   cpufreq-utils
+   crash-spu-commands
+   device-mapper-multipath
+   edac-utils
+   fipscheck
+   freeipmi
+   gpart
+   hardlink
+   hesinfo
+   hfsutils
+   ibmasm
+   iscsi-initiator-utils
+   kexec-tools
+   keyutils
+   libica
+   nfs4-acl-tools
+   openCryptoki
+   openssl-ibmca
+   openswan
+   squashfs-tools
+   star
+   tpm-tools
+   trousers
+   x86info
+
+Group: Slovenian Support
+ Group-Id: slovenian-support
+ Language: sl
+ Mandatory Packages:
+   +fonts-ISO8859-2
+ Conditional Packages:
+   +aspell-sl
+   +fonts-ISO8859-2-100dpi
+   +fonts-ISO8859-2-75dpi
+   +kde-i18n-Slovenian
+
+Group: FTP Server
+ Group-Id: ftp-server
+ Description: These tools allow you to run an FTP server on the system.
+ Mandatory Packages:
+   +vsftpd
+ Optional Packages:
+   xferstats
+
+Group: Thai Support
+ Group-Id: thai-support
+ Language: th
+ Mandatory Packages:
+   +m17n-db-thai
+ Conditional Packages:
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: Network Servers
+ Group-Id: network-server
+ Description: These packages include network-based servers such as DHCP, Kerberos and NIS.
+ Default Packages:
+   +cyrus-sasl
+ Optional Packages:
+   amanda-server
+   dhcp
+   dhcpv6
+   dnsmasq
+   freeradius
+   krb5-server
+   openldap-servers
+   openldap-servers-overlays
+   privoxy
+   quagga
+   radvd
+   vnc-server
+   ypserv
+
+Group: Kannada Support
+ Group-Id: kannada-support
+ Language: kn
+ Mandatory Packages:
+   +fonts-kannada
+   +m17n-db-kannada
+ Default Packages:
+   +Deployment_Guide-kn-IN
+ Conditional Packages:
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: Malayalam Support
+ Group-Id: malayalam-support
+ Language: ml
+ Mandatory Packages:
+   +fonts-malayalam
+   +m17n-db-malayalam
+ Default Packages:
+   +Deployment_Guide-ml-IN
+ Conditional Packages:
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: Breton Support
+ Group-Id: breton-support
+ Language: br
+ Conditional Packages:
+   +aspell-br
+
+Group: Romanian Support
+ Group-Id: romanian-support
+ Language: ro
+ Mandatory Packages:
+   +fonts-ISO8859-2
+ Conditional Packages:
+   +fonts-ISO8859-2-100dpi
+   +fonts-ISO8859-2-75dpi
+   +kde-i18n-Romanian
+
+Group: Games and Entertainment
+ Group-Id: games
+ Description: Various ways to relax and spend your free time.
+ Default Packages:
+   +joystick
+
+Group: Greek Support
+ Group-Id: greek-support
+ Language: el
+ Conditional Packages:
+   +aspell-el
+   +kde-i18n-Greek
+
+Group: Miscellaneous Included Packages
+ Group-Id: miscallvars
+ Optional Packages:
+   anaconda
+   anaconda-runtime
+   bitmap-fonts-cjk
+   booty
+   busybox-anaconda
+   convmv
+   iptables
+   iptables-devel
+   iptables-ipv6
+   ipv6calc
+   iscsi-initiator-utils
+   joe
+   kernel
+   kernel-kdump
+   kernel-xen
+   lksctp-tools
+   netlabel_tools
+   openhpi
+   openhpi-subagent
+   openmotif
+   procinfo
+   sg3_utils
+   syslinux
+
+Group: Danish Support
+ Group-Id: danish-support
+ Language: da
+ Conditional Packages:
+   +aspell-da
+   +kde-i18n-Danish
+   +man-pages-da
+
+Group: Afrikaans Support
+ Group-Id: afrikaans-support
+ Language: af
+ Conditional Packages:
+   +aspell-af
+
+Group: Urdu Support
+ Group-Id: urdu-support
+ Language: ur
+ Mandatory Packages:
+   +fonts-arabic
+   +m17n-db-urdu
+ Conditional Packages:
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: Legacy Software Development
+ Group-Id: legacy-software-development
+ Description: These packages provide compatibility support with previous releases.
+ Default Packages:
+   +compat-gcc-34
+   +compat-gcc-34-c++
+   +compat-gcc-34-g77
+   +compat-glibc
+   +compat-libcom_err
+   +compat-libgcc-295
+   +compat-libgcc-296
+   +compat-libstdc++-295
+   +compat-libstdc++-296
+   +compat-libstdc++-33
+ Optional Packages:
+   gtk+
+
+Group: Brazilian Portuguese Support
+ Group-Id: brazilian-support
+ Language: pt_BR
+ Default Packages:
+   +Deployment_Guide-pt-BR
+ Conditional Packages:
+   +aspell-pt
+   +kde-i18n-Brazil
+
+Group: Welsh Support
+ Group-Id: welsh-support
+ Language: cy
+ Conditional Packages:
+   +aspell-cy
+
+Group: Java
+ Group-Id: java
+ Description: Support for running programs written in the Java programming language.
+ Mandatory Packages:
+   +java-1.4.2-gcj-compat
+   +libgcj
+
+Group: Telugu Support
+ Group-Id: telugu-support
+ Language: te
+ Mandatory Packages:
+   +fonts-telugu
+   +m17n-db-telugu
+ Default Packages:
+   +Deployment_Guide-te-IN
+ Conditional Packages:
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: Java Development
+ Group-Id: java-development
+ Description: Support for developing programs in the Java programming language.
+ Mandatory Packages:
+   +java-1.4.2-gcj-compat-devel
+ Default Packages:
+   +bsh
+   +bsh-javadoc
+   +bsh-manual
+   +java-1.4.2-gcj-compat-src
+   +xmlrpc
+   +xmlrpc-javadoc
+ Optional Packages:
+   bsh-demo
+
+Group: OpenFabrics Enterprise Distribution
+ Group-Id: openfabrics-enterprise-distribution
+ Description: Components used for high performance networking and clustering, such as Infiniband and RDMA.
+ Default Packages:
+   +compat-dapl
+   +compat-dapl-devel
+   +compat-dapl-utils
+   +dapl
+   +dapl-devel
+   +dapl-utils
+   +ibutils
+   +infiniband-diags
+   +libcxgb3
+   +libehca
+   +libibcm
+   +libibverbs
+   +libibverbs-utils
+   +libipathverbs
+   +libmlx4
+   +libmthca
+   +libnes
+   +librdmacm
+   +librdmacm-utils
+   +libsdp
+   +mpitests-openmpi
+   +ofed-docs
+   +openib
+   +openmpi
+   +perftest
+   +qperf
+ Optional Packages:
+   compat-dapl-static
+   dapl-static
+   ibsim
+   mpitests-mvapich
+   mpitests-mvapich2
+   mstflint
+   mvapich
+   mvapich2
+   opensm
+   qlvnictools
+   srptools
+   tvflash
+
+Group: Tamil Support
+ Group-Id: tamil-support
+ Language: ta
+ Mandatory Packages:
+   +fonts-tamil
+   +m17n-db-tamil
+ Default Packages:
+   +Deployment_Guide-ta-IN
+ Conditional Packages:
+   +kde-i18n-Tamil
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: Legacy Software Support
+ Group-Id: legacy-software-support
+ Description: Libraries for applications built on older releases.
+ Default Packages:
+   +compat-libgcc-295
+   +compat-libgcc-296
+   +compat-libstdc++-295
+   +compat-libstdc++-296
+   +compat-libstdc++-33
+ Optional Packages:
+   compat-db
+   compat-openldap
+   compat-readline43
+   compat-slang
+   openmotif22
+   openssl097a
+   qt4
+
+Group: Indonesian Support
+ Group-Id: indonesian-support
+ Language: id
+ Conditional Packages:
+   +aspell-id
+
+Group: Gujarati Support
+ Group-Id: gujarati-support
+ Language: gu
+ Mandatory Packages:
+   +fonts-gujarati
+   +m17n-db-gujarati
+ Default Packages:
+   +Deployment_Guide-gu-IN
+ Conditional Packages:
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: X Window System
+ Group-Id: base-x
+ Description: Install this group of packages to use the base graphical (X) user interface.
+ Mandatory Packages:
+   +bitmap-fonts
+   +desktop-backgrounds-basic
+   +xorg-x11-drivers
+   +xorg-x11-fonts-100dpi
+   +xorg-x11-fonts-75dpi
+   +xorg-x11-fonts-ISO8859-1-100dpi
+   +xorg-x11-fonts-ISO8859-1-75dpi
+   +xorg-x11-fonts-Type1
+   +xorg-x11-fonts-misc
+   +xorg-x11-fonts-truetype
+   +xorg-x11-server-Xorg
+   +xorg-x11-xauth
+   +xorg-x11-xfs
+   +xorg-x11-xinit
+ Default Packages:
+   +authconfig-gtk
+   +bitstream-vera-fonts
+   +dejavu-lgc-fonts
+   +firstboot
+   +freeglut
+   +gdm
+   +glx-utils
+   +krb5-auth-dialog
+   +liberation-fonts
+   +linuxwacom
+   +openssh-askpass
+   +pirut
+   +policycoreutils-gui
+   +rhgb
+   +rhn-setup-gnome
+   +synaptics
+   +system-config-date
+   +system-config-display
+   +system-config-network
+   +system-config-printer
+   +system-config-services
+   +system-config-soundcard
+   +system-config-users
+   +vnc-server
+   +wdaemon
+   +xorg-x11-apps
+   +xorg-x11-twm
+   +xterm
+ Optional Packages:
+   ibmasm-xinput
+   switchdesk
+   xorg-x11-resutils
+   xorg-x11-server-Xnest
+   xorg-x11-server-Xvfb
+   xorg-x11-utils
+   xorg-x11-xfs-utils
+   xorg-x11-xfwp
+   xorg-x11-xsm
+
+Group: Chinese Support
+ Group-Id: chinese-support
+ Language: zh
+ Mandatory Packages:
+   +fonts-chinese
+ Default Packages:
+   +Deployment_Guide-zh-CN
+   +Deployment_Guide-zh-TW
+   +lv
+   +stardict
+ Optional Packages:
+   bogl
+   bogl-bterm
+ Conditional Packages:
+   +kde-i18n-Chinese
+   +kde-i18n-Chinese-Big5
+   +m17n-db-chinese
+   +scim-bridge-gtk
+   +scim-chewing
+   +scim-chinese-standard
+   +scim-pinyin
+   +scim-qtimm
+   +scim-tables-chinese
+
+Group: Graphics
+ Group-Id: graphics
+ Description: This group includes packages to help you manipulate and scan images.
+ Default Packages:
+   +ImageMagick
+   +dcraw
+   +netpbm-progs
+   +sane-frontends
+   +xsane
+ Optional Packages:
+   agg
+   gimp
+   gimp-data-extras
+   gimp-help
+   libsane-hpaio
+   xfig
+
+Group: Web Server
+ Group-Id: web-server
+ Description: These tools allow you to run a Web server on the system.
+ Mandatory Packages:
+   +httpd
+ Default Packages:
+   +crypto-utils
+   +distcache
+   +httpd-manual
+   +mod_perl
+   +mod_python
+   +mod_ssl
+   +php
+   +php-ldap
+   +squid
+   +tux
+   +webalizer
+ Optional Packages:
+   mod_auth_kerb
+   mod_auth_mysql
+   mod_auth_pgsql
+   mod_authz_ldap
+   mod_nss
+   php-mysql
+   php-odbc
+   php-pear
+   php-pgsql
+   tomcat5
+   tomcat5-admin-webapps
+   tomcat5-webapps
+
+Group: Ruby
+ Group-Id: ruby
+ Description: Basic support for the Ruby programming language.
+ Mandatory Packages:
+   +ruby
+ Default Packages:
+   +ruby-devel
+   +ruby-mode
+ Optional Packages:
+   eruby
+   ruby-ri
+
+Group: Czech Support
+ Group-Id: czech-support
+ Language: cs
+ Mandatory Packages:
+   +fonts-ISO8859-2
+ Conditional Packages:
+   +aspell-cs
+   +fonts-ISO8859-2-100dpi
+   +fonts-ISO8859-2-75dpi
+   +kde-i18n-Czech
+   +man-pages-cs
+
+Group: Bulgarian Support
+ Group-Id: bulgarian-support
+ Language: bg
+ Mandatory Packages:
+   +fonts-ISO8859-2
+ Conditional Packages:
+   +aspell-bg
+   +fonts-ISO8859-2-100dpi
+   +fonts-ISO8859-2-75dpi
+   +kde-i18n-Bulgarian
+
+Group: Windows File Server
+ Group-Id: smb-server
+ Description: This package group allows you to share files between Linux and MS Windows(tm) systems.
+ Mandatory Packages:
+   +samba
+   +samba-client
+ Default Packages:
+   +system-config-samba
+
+Group: Galician Support
+ Group-Id: galician-support
+ Language: gl
+ Conditional Packages:
+   +aspell-gl
+
+Group: Dutch Support
+ Group-Id: dutch-support
+ Language: nl
+ Conditional Packages:
+   +aspell-nl
+   +kde-i18n-Dutch
+
+Group: Printing Support
+ Group-Id: printing
+ Description: Install these tools to enable the system to print or act as a print server.
+ Mandatory Packages:
+   +cups
+   +ghostscript
+ Default Packages:
+   +a2ps
+   +enscript
+   +hal-cups-utils
+   +hplip
+   +samba-client
+   +system-config-printer
+ Optional Packages:
+   bluez-utils-cups
+   wacomexpresskeys
+
+Group: Oriya Support
+ Group-Id: oriya-support
+ Language: or
+ Mandatory Packages:
+   +fonts-oriya
+   +m17n-db-oriya
+ Default Packages:
+   +Deployment_Guide-or-IN
+ Conditional Packages:
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: KDE Software Development
+ Group-Id: kde-software-development
+ Description: Install these packages to develop QT and KDE graphical applications.
+ Mandatory Packages:
+   +arts-devel
+   +kdelibs-devel
+   +qt-devel
+ Default Packages:
+   +PyQt-devel
+   +kdbg
+   +kdebase-devel
+   +kdenetwork-devel
+   +kdesdk
+   +kdeutils-devel
+   +kdevelop
+   +qt-designer
+ Optional Packages:
+   kdesdk-devel
+
+Group: Icelandic Support
+ Group-Id: icelandic-support
+ Language: is
+ Conditional Packages:
+   +aspell-is
+   +kde-i18n-Icelandic
+
+Group: Ukrainian Support
+ Group-Id: ukrainian-support
+ Language: uk
+ Mandatory Packages:
+   +fonts-KOI8-R
+   +fonts-KOI8-R-100dpi
+ Default Packages:
+   +fonts-KOI8-R-75dpi
+ Conditional Packages:
+   +kde-i18n-Ukrainian
+   +xorg-x11-fonts-cyrillic
+
+Group: Assamese Support
+ Group-Id: assamese-support
+ Language: as
+ Mandatory Packages:
+   +fonts-bengali
+   +m17n-db-assamese
+ Default Packages:
+   +Deployment_Guide-as-IN
+ Conditional Packages:
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: KDE (K Desktop Environment)
+ Group-Id: kde-desktop
+ Description: KDE is a powerful, graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.
+ Mandatory Packages:
+   +arts
+   +kdebase
+ Default Packages:
+   +desktop-printing
+   +im-chooser
+   +kdeaccessibility
+   +kdeartwork
+   +kdenetwork
+   +kdeutils
+ Optional Packages:
+   kdeadmin
+
+Group: Bengali Support
+ Group-Id: bengali-support
+ Language: bn
+ Mandatory Packages:
+   +fonts-bengali
+   +m17n-db-bengali
+ Default Packages:
+   +Deployment_Guide-bn-IN
+ Conditional Packages:
+   +kde-i18n-Bengali
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: Mail Server
+ Group-Id: mail-server
+ Description: These packages allow you to configure an IMAP or SMTP mail server.
+ Default Packages:
+   +cyrus-sasl
+   +dovecot
+   +sendmail
+   +sendmail-cf
+   +spamassassin
+ Optional Packages:
+   cyrus-imapd
+   cyrus-imapd-perl
+   exim
+   exim-doc
+   mailman
+   postfix
+   squirrelmail
+
+Group: Spanish Support
+ Group-Id: spanish-support
+ Language: es
+ Default Packages:
+   +Deployment_Guide-es-ES
+ Conditional Packages:
+   +aspell-es
+   +kde-i18n-Spanish
+   +man-pages-es
+
+Group: Hebrew Support
+ Group-Id: hebrew-support
+ Language: he
+ Mandatory Packages:
+   +fonts-hebrew
+ Conditional Packages:
+   +kde-i18n-Hebrew
+
+Group: Estonian Support
+ Group-Id: estonian-support
+ Language: et
+ Mandatory Packages:
+   +fonts-ISO8859-2
+ Conditional Packages:
+   +fonts-ISO8859-2-100dpi
+   +fonts-ISO8859-2-75dpi
+   +kde-i18n-Estonian
+
+Group: French Support
+ Group-Id: french-support
+ Language: fr
+ Default Packages:
+   +Deployment_Guide-fr-FR
+ Conditional Packages:
+   +aspell-fr
+   +kde-i18n-French
+   +man-pages-fr
+
+Group: Server Configuration Tools
+ Group-Id: server-cfg
+ Description: This group contains all of Red Hat's custom server configuration tools.
+ Default Packages:
+   +system-config-httpd
+   +system-config-nfs
+   +system-config-printer
+   +system-config-samba
+   +system-config-securitylevel
+   +system-config-services
+ Optional Packages:
+   system-config-bind
+   system-config-boot
+   system-switch-mail-gnome
+
+Group: Croatian Support
+ Group-Id: croatian-support
+ Language: hr
+ Mandatory Packages:
+   +fonts-ISO8859-2
+ Conditional Packages:
+   +aspell-hr
+   +fonts-ISO8859-2-100dpi
+   +fonts-ISO8859-2-75dpi
+
+Group: Sound and Video
+ Group-Id: sound-and-video
+ Description: From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.
+ Mandatory Packages:
+   +alsa-utils
+   +sox
+   +vorbis-tools
+ Default Packages:
+   +cdda2wav
+   +cdparanoia
+   +cdrdao
+   +cdrecord
+   +mkisofs
+   +sound-juicer
+ Optional Packages:
+   dvgrab
+   mikmod
+   xcdroast
+
+Group: PostgreSQL Database
+ Group-Id: sql-server
+ Description: This package group includes packages useful for use with Postgresql.
+ Mandatory Packages:
+   +postgresql
+ Default Packages:
+   +perl-DBD-Pg
+   +postgresql-python
+   +postgresql-server
+   +rhdb-utils
+   +unixODBC
+ Optional Packages:
+   libdbi-dbd-pgsql
+   postgresql-contrib
+   postgresql-docs
+   postgresql-jdbc
+   postgresql-odbc
+   postgresql-pl
+   postgresql-tcl
+   postgresql-test
+   qt-ODBC
+   unixODBC-kde
+
+Group: Finnish Support
+ Group-Id: finnish-support
+ Language: fi
+ Conditional Packages:
+   +kde-i18n-Finnish
+
+Group: Norwegian Support
+ Group-Id: norwegian-support
+ Language: nb
+ Conditional Packages:
+   +aspell-no
+   +kde-i18n-Norwegian
+   +kde-i18n-Norwegian-Nynorsk
+
+Group: Development Libraries
+ Group-Id: development-libs
+ Description: The packages in this group are core libraries needed to develop applications.
+ Mandatory Packages:
+   +bzip2-devel
+   +glibc-devel
+   +libtermcap-devel
+   +ncurses-devel
+   +pam-devel
+   +readline-devel
+   +zlib-devel
+ Default Packages:
+   +boost-devel
+   +coolkey-devel
+   +curl-devel
+   +cyrus-sasl-devel
+   +db4-devel
+   +dbus-devel
+   +expat-devel
+   +gdbm-devel
+   +gmp-devel
+   +gpm-devel
+   +hesiod-devel
+   +krb5-devel
+   +kudzu-devel
+   +libacl-devel
+   +libattr-devel
+   +libcap-devel
+   +libica-devel
+   +libogg-devel
+   +libselinux-devel
+   +libusb-devel
+   +libuser-devel
+   +libvorbis-devel
+   +libxml2-devel
+   +lockdev-devel
+   +newt-devel
+   +newt-perl
+   +openldap-devel
+   +openssl-devel
+   +pciutils-devel
+   +pcsc-lite-devel
+   +python-devel
+   +rpm-devel
+   +slang-devel
+   +sysfsutils
+   +xmlsec1-devel
+   +xulrunner-devel
+ Optional Packages:
+   fipscheck-devel
+   libspe2-devel
+   libstdc++43-devel
+   perl-Archive-Zip
+   perl-Convert-ASN1
+   perl-Crypt-SSLeay
+   perl-DateManip
+   perl-LDAP
+   perl-Mozilla-LDAP
+   perl-TimeDate
+   perl-XML-Dumper
+   perl-XML-Grove
+   perl-XML-NamespaceSupport
+   perl-XML-SAX
+   perl-XML-Twig
+   perl-libxml-perl
+   python-imaging
+   tog-pegasus-devel
+
+Group: Polish Support
+ Group-Id: polish-support
+ Language: pl
+ Mandatory Packages:
+   +fonts-ISO8859-2
+ Conditional Packages:
+   +aspell-pl
+   +fonts-ISO8859-2-100dpi
+   +fonts-ISO8859-2-75dpi
+   +kde-i18n-Polish
+   +man-pages-pl
+
+Group: News Server
+ Group-Id: news-server
+ Description: This group allows you to configure the system as a news server.
+ Mandatory Packages:
+   +inn
+
+Group: Gaelic Support
+ Group-Id: gaelic-support
+ Language: gd
+ Conditional Packages:
+   +aspell-gd
+
+Group: Development Tools
+ Group-Id: development-tools
+ Description: These tools include core development tools such as automake, gcc, perl, python, and debuggers.
+ Mandatory Packages:
+   +autoconf
+   +automake
+   +binutils
+   +bison
+   +flex
+   +gcc
+   +gcc-c++
+   +gdb
+   +gettext
+   +libtool
+   +make
+   +pkgconfig
+   +redhat-rpm-config
+   +rpm-build
+   +strace
+   +strace64
+ Default Packages:
+   +automake14
+   +automake15
+   +automake16
+   +automake17
+   +byacc
+   +cscope
+   +ctags
+   +cvs
+   +dev86
+   +diffstat
+   +dogtail
+   +doxygen
+   +elfutils
+   +gcc-gfortran
+   +indent
+   +ltrace
+   +oprofile
+   +patchutils
+   +pfmon
+   +pstack
+   +python-ldap
+   +rcs
+   +splint
+   +subversion
+   +swig
+   +systemtap
+   +texinfo
+   +valgrind
+ Optional Packages:
+   ElectricFence
+   dejagnu
+   expect
+   gcc-gnat
+   gcc-objc
+   gcc43
+   gcc43-c++
+   gcc43-gfortran
+   imake
+   java-1.6.0-openjdk
+   java-1.6.0-openjdk-devel
+   libgfortran43
+   libspe2
+   memtest86+
+   nasm
+   pexpect
+   python-docs
+   unifdef
+
+Group: Ethiopic Support
+ Group-Id: ethiopic-support
+ Language: am
+ Conditional Packages:
+   +xorg-x11-fonts-ethiopic
+
+Group: Marathi Support
+ Group-Id: marathi-support
+ Language: mr
+ Mandatory Packages:
+   +fonts-hindi
+   +m17n-db-marathi
+ Default Packages:
+   +Deployment_Guide-mr-IN
+ Conditional Packages:
+   +scim-bridge-gtk
+   +scim-m17n
+   +scim-qtimm
+
+Group: Graphical Internet
+ Group-Id: graphical-internet
+ Description: This group includes graphical email, Web, and chat clients.
+ Default Packages:
+   +firefox
+   +nspluginwrapper
+ Optional Packages:
+   gftp
+   kdewebdev
+   xchat

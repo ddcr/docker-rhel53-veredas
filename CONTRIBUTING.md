@@ -14,8 +14,5 @@ Create a [new merge/pull request][2]! Make sure to follow the guidelines.
 ## Merge/Pull Request Guidelines
 Make sure to have atomic commits and contextual commit messages!
 
-[Check out this awesome blog post by Chris Beams for more information.][3]
-
 [1]: https://github.com/ddcr/docker-rhel53-veredas/issues/new
 [2]: https://github.com/ddcr/docker-rhel53-veredas/compare
-[3]: http://chris.beams.io/posts/git-commit/

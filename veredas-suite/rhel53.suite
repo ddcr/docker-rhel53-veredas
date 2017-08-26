@@ -1,0 +1,21 @@
+name = Red Hat
+release = 5.3
+
+gpg_key = gpg/RPM-GPG-KEY-redhat-release
+
+packages = packages/redhat-53.list
+
+[post_install]
+;finalize = scripts/fix_rpmdb.old-rpm.py
+finalize = scripts/clean_yumbootstrap.py
+
+[repositories]
+rhel53-server = file:///release/RHEL5.3/Server
+rhel53-eus = file:///release/RHEL5.3-LOCAL-EUS
+
+[environment]
+;PYTHONPATH=...
+;PYTHONPATH
+;SUDO_*
+
+; vim:ft=dosini
