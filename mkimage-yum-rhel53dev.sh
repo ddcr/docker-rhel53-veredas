@@ -15,7 +15,7 @@ set -e
 # option defaults
 yum_config=/etc/yum.conf
 
-name="rhel_veredas"
+name="rhel-veredas"
 
 target=$(mktemp -d --tmpdir=/var/tmp $(basename $0).XXXXXX)
 

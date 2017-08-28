@@ -6,7 +6,7 @@ gpg_key = gpg/RPM-GPG-KEY-redhat-release
 packages = packages/redhat-53.list
 
 [post_install]
-;finalize = scripts/fix_rpmdb.old-rpm.py
+finalize = scripts/fix_rpmdb.py
 finalize = scripts/clean_yumbootstrap.py
 
 [repositories]
